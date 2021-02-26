@@ -85,6 +85,12 @@ li{
 .nav-item{
     margin-right: 10px;
 }
+.home{
+    border-bottom: 2px solid var(--pink);
+}
+.nav-item:hover{
+    border-bottom: 2px solid var(--pink);
+}
 .explore-box{
     position: relative;
     overflow: hidden;
@@ -100,7 +106,7 @@ li{
     bottom: -450px;
     color: white;
     transition: .5s all ease;
-    -webkit-transition: 1s all ease;
+    -webkit-transition: 1.5s all ease;
     /* background-color: #0000005b; */
     padding: 5px 10px;
 }
@@ -109,6 +115,12 @@ bottom: 0;
 }
 .explore-box:hover .explore-img-heading{
     display: none;
+}
+#subscribe{
+    background-color: #ff387a;
+}
+#logo-carousel{
+    background-color: #ff387a;
 }
 .subscribe-heading{
     font-size: 45px;
@@ -124,8 +136,21 @@ bottom: 0;
     color: var(--pink);
 }
 .color-yellow{
-    color:#f3e037;
+    color:#ff0055;
     font-weight: bold;
+}
+.footer-bottom{
+    background-color: var(--pink);
+    padding: 20px 0;
+}
+.footer-bottom a{
+    color: #ff0055;
+}
+@media only screen and (max-width:339px){
+    .btn-view{
+        margin-top: 1px;
+        padding: 12px 26px;
+    }
 }
 @media only screen and (max-width:370px){
     .explore-textarea p{
@@ -140,6 +165,10 @@ bottom: 0;
 @media only screen and (max-width:767px){
     .subscribe-box .form-control,a{
         display: block;
+    }
+    .subscribe-box a{
+        position: relative;
+        top: 0;
     }
 }
 @media only screen and (max-width:991px){
