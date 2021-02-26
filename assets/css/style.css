@@ -127,6 +127,16 @@ bottom: 0;
     color:#f3e037;
     font-weight: bold;
 }
+@media only screen and (max-width:370px){
+    .explore-textarea p{
+        display: none;
+    }
+}
+@media only screen and (max-width:452px){
+    .explore-textarea h4{
+        display: none;
+    }
+}
 @media only screen and (max-width:767px){
     .subscribe-box .form-control,a{
         display: block;
