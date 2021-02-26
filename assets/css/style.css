@@ -1,0 +1,150 @@
+html{
+    scroll-behavior: smooth;
+  }
+  :root{
+      --pink: #ff5e94;
+      --green: #599459;
+  }
+  h1,h2,h3,h4,h5,h6{
+      padding: 0;
+      margin: 0;
+  }
+  p{
+      padding: 0;
+      margin: 0;
+  }
+  ul{
+      padding: 0;
+      margin: 0;
+  }
+  .section-title{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .section-title h1{
+      font-weight: bold;
+  }
+  .btn{
+      background-color: var(--pink);
+      color: #fff;
+      border: 1px solid var(--pink);
+      padding: 12px 20px;
+      border-radius: 0;
+  }
+  .btn-view{
+      background-color: transparent;
+      color: var(--pink);
+  }
+  .form-control{
+      height: 50px;
+      margin-bottom: 15px;
+  }
+  .float-right{
+      float: right!important;
+  }
+  a:hover{
+    text-decoration: none;
+}
+  section{
+      padding: 100px 0;
+  }
+  footer{
+      padding: 100px 0;
+  }
+  .mb-50{
+    margin-bottom: 50px;
+}
+ .mb-30{
+    margin-bottom: 30px;
+}
+.pb-50{
+    padding-bottom: 50px;
+}
+.pb-70{
+    padding-bottom: 70px;
+}
+li{
+    list-style: none;
+}
+.bold{
+    font-weight: bold;
+}
+.color-white{
+    color: #fff;
+}
+/* .nav-btn{
+    margin-left: 10px;
+} */
+.nav-btn .btn:hover{
+    background-color: #fff;
+    color: var(--pink);
+}
+.color{
+    background-color: #fff;
+}
+.nav-item{
+    margin-right: 10px;
+}
+.explore-box{
+    position: relative;
+    overflow: hidden;
+}
+.explore-img-heading{
+    position: absolute;
+    bottom: 20px;
+    padding:0 10px;
+
+}
+.explore-textarea{
+    position: absolute;
+    bottom: -450px;
+    color: white;
+    transition: .5s all ease;
+    -webkit-transition: 1s all ease;
+    /* background-color: #0000005b; */
+    padding: 5px 10px;
+}
+.explore-box:hover .explore-textarea{
+bottom: 0;
+}
+.explore-box:hover .explore-img-heading{
+    display: none;
+}
+.subscribe-heading{
+    font-size: 45px;
+    /* margin-left: 60px; */
+}
+.subscribe-box a{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.footer-icon a{
+    font-size: 25px;
+    color: var(--pink);
+}
+.color-yellow{
+    color:#f3e037;
+    font-weight: bold;
+}
+@media only screen and (max-width:767px){
+    .subscribe-box .form-control,a{
+        display: block;
+    }
+}
+@media only screen and (max-width:991px){
+    .footer-list{
+        text-align: center;
+    }
+    .subscribe-heading{
+        text-align: center;
+    }
+    .subscribe-right{
+        text-align: center;
+    }
+}
+/* @media only screen and (min-width:992px) and (max-width:1200px){
+    .footer-icon a{
+        margin-top: 100px;
+    }
+} */
